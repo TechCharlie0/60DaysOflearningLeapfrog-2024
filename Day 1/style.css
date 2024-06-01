@@ -9,3 +9,13 @@ h1 {
     text-align: center;
 
 }
+
+p {
+    background-color: rgb(194, 186, 202);
+    color: brown;
+    font-family: monospace;
+    font-weight: 500;
+    line-height: 1.5;
+
+
+}
