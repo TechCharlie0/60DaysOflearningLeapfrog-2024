@@ -39,3 +39,11 @@ h1 {
 .upvote+button {
     background-color: brown;
 }
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: green;
+}
