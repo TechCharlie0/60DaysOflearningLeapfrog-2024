@@ -1,0 +1,41 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(250, 109, 109);
+
+}
+
+#login {
+    background-color: brown;
+    color: white;
+}
+
+#signup {
+    background-color: rgb(97, 230, 230);
+
+}
+
+.login {
+    background-color: blue;
+    color: white;
+
+}
+
+.signup {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*decendent selector*/
+
+.lists a {
+    color: rgb(20, 189, 189);
+}
+
+/*Adjacent sibling combinator*/
+
+.upvote+button {
+    background-color: brown;
+}
