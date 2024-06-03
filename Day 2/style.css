@@ -1,26 +1,14 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
     color: rgb(250, 109, 109);
-
-}
-
-#login {
-    background-color: brown;
-    color: white;
-}
-
-#signup {
-    background-color: rgb(97, 230, 230);
-
 }
 
 .login {
-    background-color: blue;
+    background-color: brown;
     color: white;
-
 }
 
 .signup {
@@ -42,8 +30,34 @@ h1 {
 
 input[type="text"] {
     color: red;
+    background-color: aqua;
 }
 
 input[type="password"] {
     color: green;
+}
+
+button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(159, 159, 224);
+
+}
+
+input [type="radio"]:checked+label {
+    color: red;
+    font-size: large;
+
+}
+
+div:nth-child(n) {
+    background-color: rgb(233, 181, 181);
+
+}
+
+h1::first-letter {
+    color: blueviolet;
 }
