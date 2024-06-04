@@ -1,6 +1,6 @@
 .card {
     width: 200px;
-    height: 210px;
+    height: 500px;
     border: 2px solid black;
     display: inline-block;
     margin: 10px;
@@ -23,4 +23,41 @@ img {
     box-shadow: 0 8px 16px rgb(216, 16, 16);
 
 
+}
+
+.face {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+.mouth {
+    width: 200px;
+    height: 75px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+
+
+}
+
+.left-eyes,
+.right-eyes {
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    top: 100px;
+
+}
+
+.right-eyes {
+    left: 300px;
 }
