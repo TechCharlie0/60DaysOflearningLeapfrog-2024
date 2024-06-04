@@ -1,33 +1,6 @@
-.card {
-    width: 200px;
-    height: 500px;
-    border: 2px solid black;
-    display: inline-block;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px black;
-    transition: 1s;
-
-}
-
-.desc {
-    padding 0 2px 0 2px
-}
-
-img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px rgb(216, 16, 16);
-
-
-}
-
 .face {
     width: 400px;
-    height: 400px;
+    height: 350px;
     background-color: yellow;
     border-radius: 50%;
 
@@ -35,7 +8,7 @@ img {
 
 .mouth {
     width: 200px;
-    height: 75px;
+    height: 70px;
     background-color: brown;
     border-radius: 0 0 50px 50px;
     position: absolute;
@@ -60,4 +33,30 @@ img {
 
 .right-eyes {
     left: 300px;
+}
+
+.card {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+
+}
+
+.desc {
+    padding 0 2px 0 2px
+}
+
+img {
+    width: 150px;
+    border-radius: 5px 5px 0 0;
+    height: 150px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgb(216, 16, 16);
+
+
 }
