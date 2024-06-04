@@ -1,74 +1,68 @@
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 h1 {
-    color: brown;
+  color: brown;
 }
 
 h1::first-letter {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .lists li {
-    color: black;
-    list-style: none;
+  color: black;
+  list-style: none;
 }
 
 .lists a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .lorem {
-    height: 130px;
-    width: 500px;
-    background-color: pink;
-    /* border-width: 2px;
-    border-style: solid;
-    border-color: black; ( short hand)*/
-    border: 2px solid black;
-    /* border-left-color: yellow;
-    border-left-style: dashed; */
-    border-top: 5px dashed green;
-    border-radius: 20px;
-    /* padding-left: 40px; */
-    padding: 20px 30px 20px 30px;
-    margin: 20px 20px;
-    text-align: center;
+  height: 130px;
+  width: 500px;
+  background-color: pink;
+
+  border-top: 5px dashed green;
+  border-radius: 20px;
+  padding: 20px 30px 20px 30px;
+  margin: 20px 20px;
+  text-align: center;
 }
 
 .lorem:hover {
-    cursor: pointer;
-    background-color: blue;
-    border: none;
-    border-radius: 20px;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  border-radius: 20px;
 }
 
 .dolor {
-    height: 100px;
-    width: 400px;
-    background-color: rgb(182, 16, 44);
-    padding: 30px;
-    text-align: center;
-    margin: 20px 20px;
+  height: 100px;
+  width: 400px;
+  background-color: rgb(182, 16, 44);
+  padding: 30px;
+  text-align: center;
+  margin: 20px 20px;
 }
 
 .dolor:hover {
-    background-color: blueviolet;
-    cursor: pointer;
-    border-radius: 50px;
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 50px;
 }
 
 button {
-    border: 2px solid black;
-    background-color: aqua;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+  border: 2px solid black;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: blue;
+  cursor: pointer;
+  background-color: blue;
 }
