@@ -1,19 +1,25 @@
+section {
+    margin-top: 100px;
+}
+
 div {
-    height: 100px;
-    width: 100px;
-    background-color: rgba(255, 0, 0, 0.5);
-    margin: 0 auto;
-    margin-top: 10px;
-    transition: margin-top 2s ease-in-out 0.2s;
-    /*Transition */
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(23, 122, 23);
+    border: 2px solid black;
+    margin: 10px;
 }
 
-div:hover {
-    margin-top: 488px;
+div:nth-of-type(2n) {
+    background-color: rgb(141, 81, 197);
 }
 
-.transform {
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+div:nth-of-type(3n) {
+    background-color: rgb(50, 204, 204);
+}
+
+/* transform */
+#one {
+    transform: rotate(45deg);
 }
