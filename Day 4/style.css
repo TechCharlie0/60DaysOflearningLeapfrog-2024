@@ -1,18 +1,19 @@
 div {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: rgba(255, 0, 0, 0.5);
-    transition: 1s, 1s;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: margin-top 2s ease-in-out 0.2s;
     /*Transition */
 }
 
 div:hover {
-    background-color: black;
-    border-radius: 50%;
+    margin-top: 488px;
 }
 
-#opacity {
-    background-color: rgb(236, 156, 36);
-    opacity: 1;
-    /* 0 mean absent and 1  mean  present */
+.transform {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
 }
