@@ -5,6 +5,12 @@
     margin: 10px auto;
     border: 2px solid black;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
 
 }
 
@@ -13,7 +19,7 @@ h1 {
 }
 
 #container div {
-    height: 100px;
+    height: 50px;
     width: 300px;
     color: white;
     text-align: center;
