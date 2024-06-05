@@ -8,7 +8,8 @@
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
 
 
 
