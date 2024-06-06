@@ -33,3 +33,9 @@ h4 {
 .adopt {
     text-align: center;
 }
+
+@media (max-width: 375px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+}
