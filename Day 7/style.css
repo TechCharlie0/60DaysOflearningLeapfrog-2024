@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-box {
+    background: url("./Image/340073.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn_one {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+}
