@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    text-transform: capitalize;
 }
 
 a {
@@ -53,10 +54,4 @@ li {
     background-color: #038e43;
     color: white;
     border: none;
-}
-
-
-
-.button-nav button:hover {
-    cursor: pointer;
 }
