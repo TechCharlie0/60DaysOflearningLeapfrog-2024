@@ -1,7 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Tomato Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol", sans-serif;
     text-transform: capitalize;
 }
 
@@ -50,8 +52,48 @@ li {
     padding: 15px 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
     background-color: #038e43;
     color: white;
     border: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-container .innovate {
+    width: 40%;
+}
+
+.innovate-heading h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 82px;
+    color: rgb(17, 17, 17);
+}
+
+.innovate-paragraph p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #828282;
+    padding-top: 20px;
+}
+
+.buid-join {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    color: #102b7b;
+}
+
+.innovate span {
+    color: #038e43;
+}
+
+.img-innovate iframe {
+    width: 500px;
+    height: 500px;
 }
