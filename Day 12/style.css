@@ -40,10 +40,6 @@ form {
     padding: 15px;
 }
 
-.top h1:hover {
-    background-color: rgb(122, 12, 12);
-    cursor: pointer;
-}
 
 .inputdetails input {
     display: block;
