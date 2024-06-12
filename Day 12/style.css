@@ -111,15 +111,12 @@ input[type="checkbox"] {
 
 .info p {
     color: #1d1d1c;
-    /* font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    text-transform: capitalize; */
+
 }
 
 .info a {
     text-decoration: none;
     color: white;
-    /* font-family: Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    text-transform: capitalize; */
 }
 
 .info-2 {
