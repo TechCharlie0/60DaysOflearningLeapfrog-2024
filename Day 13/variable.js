@@ -2,9 +2,13 @@
 console.log("This my first JavaScript class");
 
 //using variable in JS
+//operation in js
 var a = 5; //int
 var b = 6;
 console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
 
 //To check the typeof Variable
 var m = 7;

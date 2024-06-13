@@ -10,4 +10,6 @@ let r = null;
 console.log(x, y, z, p, q, r);
 console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r);
 
-let o = {};
+//NAN is not a defined number
+let m = NaN * 3;
+console.log(m);
