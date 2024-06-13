@@ -22,6 +22,6 @@ let i = 3;
 let j = 6;
 {
   let i = 33;
-  console.log(i); //let is block scope
+  console.log(i); //let is block scope var is global scope
 }
 console.log(i);
