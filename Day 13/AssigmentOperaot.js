@@ -6,5 +6,5 @@ console.log((age *= 10));
 
 //UNARY OPERATOR
 let age1 = 24;
-console.log(age1++); //Postincrement operator
 console.log(++age1); //Preincrement operator
+console.log(age1++); //Postincrement operator
