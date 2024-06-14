@@ -20,3 +20,18 @@ if (age >= 18) {
 }
 
 //else statement
+let age1 = 10;
+if (age1 >= 19) {
+  console.log("you can vote");
+} else {
+  console.log("you cannot vote");
+}
+
+//nested if-else
+let marks = 45;
+if (marks >= 33) {
+  console.log("pass");
+  console.log("Grade: c");
+} else {
+  console.log("better luck next time!");
+}
