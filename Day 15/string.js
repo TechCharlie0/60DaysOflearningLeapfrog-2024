@@ -19,6 +19,7 @@ console.log(str.indexOf("j")); //-1(not found)
 //method chaining
 let string = "hello";
 console.log(string.trim().toUpperCase());
+console.log(string.repeat(3)); //repeat
 
 //slice method
 let slic = "ilovecoding";
