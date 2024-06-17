@@ -3,9 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Day 17 of LeapFrog</title>
+    <title>Responsive Website</title>
+    <link href="output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <script src="./script.js"></script>
+  <body class="bg-gray-100">
+    <nav class="bg-white shadow-lg">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+          <div class="text-2xl font-bold text-gray-800">MyWebsite</div>
+          <div class="hidden md:flex space-x-4">
+            <a href="#home" class="text-gray-800 hover:text-gray-600">Home</a>
+            <a href="#about" class="text-gray-800 hover:text-gray-600">About</a>
+            <a href="#contact" class="text-gray-800 hover:text-gray-600"
+              >Contact</a
+            >
+          </div>
+          <div class="md:hidden">
+            <button class="text-gray-800 focus:outline-none">
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="bg-blue-500 text-white text-center py-20">
+      <div class="max-w-7xl mx-auto px-4">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">
+          Welcome to MyWebsite
+        </h1>
+        <p class="text-lg md:text-xl mb-8">
+          This is a simple hero section with a welcome message.
+        </p>
+        <a
+          href="#about"
+          class="bg-white text-blue-500 px-6 py-2 rounded-full hover:bg-gray-100"
+          >Learn More</a
+        >
+      </div>
+    </section>
+
+    <section id="about" class="bg-white py-20">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+          About Us
+        </h2>
+        <div class="md:flex md:space-x-4">
+          <div class="md:w-1/2">
+            <p class="text-gray-700 mb-4">
+              We are a company dedicated to providing the best services for our
+              customers. Our team is highly skilled and ready to take on any
+              challenge.
+            </p>
+          </div>
+          <div class="md:w-1/2">
+            <p class="text-gray-700 mb-4">
+              With years of experience in the industry, we have built a
+              reputation for excellence. Our mission is to deliver high-quality
+              products and services that meet the needs of our clients.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <div class="max-w-7xl mx-auto px-4">
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
