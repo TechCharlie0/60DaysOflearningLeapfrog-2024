@@ -10,3 +10,9 @@ for (let i = 0; i < heroes.length; i++) {
     console.log(heroes[i][j]);
   }
 }
+
+//for of loop
+let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+for (fruit of fruits) {
+  console.log(fruit);
+}
