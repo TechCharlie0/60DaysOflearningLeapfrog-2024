@@ -6,3 +6,11 @@
     marks:94.4;
     city:"narayangadh";
  };
+
+ //get values
+ let student= {
+    name: "robert";
+    marks:99.9;
+
+ };
+ 
