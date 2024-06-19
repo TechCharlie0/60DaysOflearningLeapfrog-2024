@@ -11,6 +11,16 @@
  let student= {
     name: "robert";
     marks:99.9;
+};
+student["name"];
+student.name;    //robert
 
- };
- 
+//add/update value
+ const stud = {
+    name: "robert";
+    age: 21;
+    marks:94.4;
+    city:"narayangadh";
+};
+ stud.city= "mumbai"; //update value
+ stud.gender="male";  //add value
