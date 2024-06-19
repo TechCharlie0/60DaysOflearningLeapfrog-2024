@@ -1,6 +1,6 @@
 //js obje t literals
 //use to store keyed collection and complex entities
- let student = {
+let student = {
     name: "isha";
     age: 21;
     marks:94.4;
@@ -8,12 +8,12 @@
  };
 
  //get values
- let student= {
+ let students= {
     name: "robert";
     marks:99.9;
 };
-student["name"];
-student.name;    //robert
+//  students["name"];
+//  students.name;    //robert
 
 //add/update value
  const stud = {
@@ -22,8 +22,8 @@ student.name;    //robert
     marks:94.4;
     city:"narayangadh";
 };
- stud.city= "mumbai"; //update value
- stud.gender="male";  //add value
+//  stud.city= "mumbai"; //update value
+//  stud.gender="male";  //add value
 
  //object of objects
  //storing information of multiple students
@@ -37,8 +37,9 @@ student.name;    //robert
         city:"Gaindakot";
 
     },
-    Robet:{
+    Robert:{
         grade:"A";
         city:"Gaindakot";
         }
  };
+
