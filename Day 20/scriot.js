@@ -25,5 +25,18 @@ function calSum(a, b) {
 calSum(1, 2);
 
 //Block Scope:Vriables declares inside{} block cannor be accessed from outside the block
+{
+  let a = 25;
+  console.log(a); //Var is not used in block scope
+}
 
-//Lexical
+//Lexical Scope: a variable defined outside a function can be accesible inside thr another function defined after the variable declaration
+//The opposite is NOT true
+function outerFunc() {
+  let x = 5;
+  let y = 6;
+  function innerFunc() {
+    console.log(x);
+  }
+  innerFunc();
+}
