@@ -15,6 +15,13 @@ function loop(n) {
 console.log(loop(3));
 
 //Scope: scope determine the accessibility of variable, objects, function from different parts of the code
-//Funtion
+//Funtion scope:defined inside a function are not accesible/visible form the outside the function
+let Add = 54; //Global Scope
+function calSum(a, b) {
+  let Add = a + b;
+  console.log(Add);
+}
+calSum(1, 2);
+
 //Block
 //Lexical
