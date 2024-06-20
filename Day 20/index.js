@@ -22,3 +22,14 @@ rollDice();
 
 //function with argument
 //values we pass to the function
+function printName(name, age) {
+  console.log(`${name}'s  age is  ${age}`);
+}
+printName("Isha kandel", 21); //result:Isha kandel age's 21
+
+//Question: Create a function that gives us the average of 3 numbers
+
+function averageNum(a, b, c) {
+  console.log(a + b + c / 3);
+}
+averageNum(23, 34, 32);
