@@ -13,3 +13,12 @@ function printPoem() {
 printPoem();
 
 //Question:Create a function to roll a dice and always display the value of the dice
+
+function rollDice() {
+  let rand = Math.floor(Math.random() * 6) + 1;
+  console.log(rand);
+}
+rollDice();
+
+//function with argument
+//values we pass to the function
