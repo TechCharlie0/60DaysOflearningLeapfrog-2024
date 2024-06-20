@@ -1,5 +1,4 @@
-//function
-//function defination(telling the js)
+//function:function defination(telling the js)
 function isha() {
   console.log("function calling"); //do something
 }
@@ -20,8 +19,7 @@ function rollDice() {
 }
 rollDice();
 
-//function with argument
-//values we pass to the function
+//function with argument: values we pass to the function
 function printName(name, age) {
   console.log(`${name}'s  age is  ${age}`);
 }
