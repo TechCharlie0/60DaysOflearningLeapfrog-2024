@@ -10,3 +10,15 @@ const student = {
     console.log(avg);
   },
 };
+
+//try and catch: The try statement allows you to define a block of code to be tested for errors while it is being executrd
+
+//The catch statement allows you to define a block of code to be executrd, if an error occurs in the block
+
+try {
+  console.log(a);
+} catch {
+  console.log("caught an error a is not defined");
+}
+
+//miscellaneous topics
