@@ -5,3 +5,9 @@ setTimeout(() => {
   console.log("isha kandel");
 }, 4000);
 console.log("hi i am ");
+
+//setInterval
+//setInterval(function, timeout)
+setInterval(() => {
+  console.log("Robert pattinson");
+}, 2000);
