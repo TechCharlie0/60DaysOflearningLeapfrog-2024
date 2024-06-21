@@ -24,4 +24,8 @@ const student = {
     console.log(this);
     return this.name;
   },
+  getMarks: () => {
+    console.log(this); // parent scope
+    return this.name;
+  },
 };
