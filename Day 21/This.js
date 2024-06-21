@@ -22,3 +22,10 @@ try {
 }
 
 //miscellaneous topics
+//Arrow function
+//const func = (arg1,arg2) => {
+//function definition}
+const sum = (a, b) => {
+  console.log(a + b);
+};
+sum(1, 2);
