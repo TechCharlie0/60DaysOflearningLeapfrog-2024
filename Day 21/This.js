@@ -6,7 +6,7 @@ const student = {
   math: 93,
   phy: 83,
   getAvg() {
-    let avg = eng + math + phy / 3;
+    let avg = (this.eng + this.math + this.phy) / 3;
     console.log(avg);
   },
 };
