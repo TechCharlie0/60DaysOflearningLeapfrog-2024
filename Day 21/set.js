@@ -11,3 +11,17 @@ console.log("hi i am ");
 setInterval(() => {
   console.log("Robert pattinson");
 }, 2000);
+
+//this with arrow function
+//function:scope=>this =>calling object
+//arrow =>lexical scope => parent ko scope lai =>call
+
+const student = {
+  name: "aman",
+  marks: 95,
+  prop: this, //global scope
+  getName: function () {
+    console.log(this);
+    return this.name;
+  },
+};
