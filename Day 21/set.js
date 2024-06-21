@@ -28,16 +28,20 @@ const student = {
     console.log(this); // parent scope i.e window
     return this.name;
   },
-  getInfo1:function () {
-    setTimeout{() =>{
-    console.log(this); // student
+  getInfo1: function () {
+    setTimeout{
+      () => {
+        console.log(this); // student
 
 
-}, 2000};
+      }, 2000
+    };
   };
-  getInfo2 : function(){
-    setTimeout{function(){
-      console.log(this); //window
-    }, 2000};
+  getInfo2: function () {
+    setTimeout{
+      function() {
+        console.log(this); //window
+      }, 2000
+    };
   },
 }; 
