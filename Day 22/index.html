@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 16</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="whole-left">
+      <div class="left">
+        <div class="heading1">
+          <h1>coding <span>Isha</span></h1>
+        </div>
+        <div class="left-icon">
+          <a href="#"
+            ><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard
+          </a>
+          <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Customer</a>
+          <a href="#"
+            ><i class="fa fa-line-chart" aria-hidden="true"></i> analytics</a
+          >
+          <a href="#"><i class="fa fa-inbox" aria-hidden="true"></i> message</a>
+          <a href="#"
+            ><i class="fa fa-product-hunt" aria-hidden="true"></i> product</a
+          >
+          <a href="#">
+            <i class="fa fa-ban" aria-hidden="true"></i>
+            reports</a
+          >
+          <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>setting</a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="main-container">
+        <h1>Dash <span>board</span></h1>
+        <div class="date">
+          <input type="date" />
+          <button id="toggle-dark-mode">Switch to Dark Mode</button>
+        </div>
+        <div class="justify-content-box">
+          <div class="first-box">
+            <div class="first-icon">
+              <i class="fa fa-line-chart fa-2x" aria-hidden="true"> </i>
+            </div>
+            <div class="first-text">
+              <h3>total sales</h3>
+              <h1>$25,024</h1>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle r="30" cy=" 40" cx="40"></circle>
+              </svg>
+            </div>
+            <p>last 24 hours</p>
+          </div>
+          <div class="second-box">
+            <div class="second-icon">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </div>
+            <div class="second-text">
+              <h3>total sales</h3>
+              <h1>$25,024</h1>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle r="30" cy=" 40" cx="40"></circle>
+              </svg>
+            </div>
+            <p>last 24 hours</p>
+          </div>
+          <div class="third-box">
+            <div class="third-icon">
+              <i class="fa fa-tachometer" aria-hidden="true"></i>
+            </div>
+            <div class="third-text">
+              <h3>total sales</h3>
+              <h1>$25,024</h1>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle r="30" cy=" 40" cx="40"></circle>
+              </svg>
+            </div>
+            <p>last 24 hours</p>
+          </div>
+        </div>
+      </div>
+      <div class="recent-order">
+        <h1>recent <span> order</span></h1>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Product name</th>
+              <th>product number</th>
+              <th>payments</th>
+              <th>status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>mini usb</td>
+              <td>456</td>
+              <td>due</td>
+              <td class="warning">pending</td>
+              <td class="primary">detail</td>
+            </tr>
+            <tr>
+              <td>mini usb</td>
+              <td>456</td>
+              <td>due</td>
+              <td class="warning">pending</td>
+              <td class="primary">detail</td>
+            </tr>
+            <tr>
+              <td>mini usb</td>
+              <td>456</td>
+              <td>due</td>
+              <td class="warning">pending</td>
+              <td class="primary">detail</td>
+            </tr>
+            <tr>
+              <td>mini usb</td>
+              <td>456</td>
+              <td>due</td>
+              <td class="warning">pending</td>
+              <td class="primary">detail</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

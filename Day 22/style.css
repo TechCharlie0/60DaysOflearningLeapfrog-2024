@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: rgb(104, 101, 101);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+}
+
+body {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    padding: 30px 0px 40px 40px;
+    width: 250px;
+    box-shadow: 4px 0 12px rgba(26, 25, 25, 0.1);
+}
+
+.left .heading1 {
+    border-bottom: 2px solid rgb(228, 224, 224);
+}
+
+.left .heading1:hover {
+    box-shadow: 0 0 25px 0 rgba(58, 56, 56, 0.2);
+    cursor: pointer;
+}
+
+.left .heading1 span {
+    color: rgb(241, 106, 57);
+}
+
+.left .left-icon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.left-icon a {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.left-icon a:hover {
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: 2s;
+}
+
+.main-container {
+    padding: 30px 40px;
+}
+
+.main-container span {
+    color: rgb(241, 106, 57);
+}
+
+.date {
+    padding: 20px 0px 40px 0px;
+
+}
+
+.justify-content-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.first-box {
+    box-shadow: 5px 5px 15px rgba(155, 149, 149, 0.5);
+    border-radius: 57px;
+}
+
+.first-box .first-icon {
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.first-box .first-text {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    color: rgb(94, 83, 83);
+}
+
+.first-box p {
+    position: relative;
+    bottom: 90px;
+    left: 20px
+}
+
+.second-box {
+    box-shadow: 5px 5px 15px rgba(155, 149, 149, 0.5);
+    border-radius: 57px;
+
+}
+
+.second-box .second-icon {
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.second-box .second-text {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.second-box p {
+    position: relative;
+    bottom: 90px;
+    left: 20px
+}
+
+.third-box {
+    box-shadow: 5px 5px 15px rgba(155, 149, 149, 0.5);
+    border-radius: 57px;
+}
+
+.third-box .third-icon {
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.third-box .third-text {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.third-box p {
+    position: relative;
+    bottom: 90px;
+    left: 20px
+}
+
+.first-box .first-icon i {
+    background-color: rgb(241, 106, 57);
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    padding: 17px;
+}
+
+.first-icon i {
+    color: white;
+    font-size: 25px;
+}
+
+.second-box .second-icon i {
+    background-color: rgb(241, 106, 57);
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    padding: 17px;
+}
+
+.second-icon i {
+    color: white;
+    font-size: 25px;
+}
+
+.third-box .third-icon i {
+    background-color: rgb(241, 106, 57);
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    padding: 17px;
+}
+
+.third-icon i {
+    color: white;
+    font-size: 25px;
+}
+
+.main-container .progress svg circle {
+    fill: none;
+    stroke: rgb(197, 197, 206);
+    transform: rotate(270, 80, 80);
+    stroke-width: 9;
+    stroke: rgb(241, 106, 57);
+    ;
+}
+
+.main-container .progress {
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+}
+
+.main-container .first-box svg circle {
+    stroke-dashoffset: 10;
+    stroke-dasharray: 150;
+}
+
+.main-container .second-box svg circle {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 120;
+}
+
+.main-container .third-box svg circle {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 150;
+}
+
+.recent-order {
+    margin-top: 3rem;
+    padding: 30px 50px;
+
+}
+
+.recent-order span {
+    color: rgb(241, 106, 57);
+
+}
+
+.recent-order h2 {
+    color: rgb(80, 73, 73);
+}
+
+.recent-order table {
+    background-color: white;
+    width: 70%;
+    padding: 40px 0px 30px 0px;
+    border-radius: 20px;
+
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(155, 149, 149, 0.5);
+
+}
+
+.recent-order table td {
+    padding: 10px;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .left {
+    background-color: #1f1f1f;
+}
+
+body.dark-mode .left .heading1 span {
+    color: #f36f56;
+}
+
+body.dark-mode .left .left-icon a {
+    color: #e0e0e0;
+}
+
+body.dark-mode .left-icon a:hover {
+    color: #f36f56;
+}
+
+body.dark-mode .main-container {
+    color: #e0e0e0;
+}
+
+body.dark-mode .main-container span {
+    color: #f36f56;
+}
+
+body.dark-mode .recent-order h1 span {
+    color: #f36f56;
+}
+
+body.dark-mode .recent-order table {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode .recent-order table td,
+body.dark-mode .recent-order table th {
+    color: #e0e0e0;
+}
+
+body.dark-mode .recent-order table tr:nth-child(even) {
+    background-color: #2b2b2b;
+}
+
+body.dark-mode .recent-order table tr:hover {
+    background-color: #343434;
+}
