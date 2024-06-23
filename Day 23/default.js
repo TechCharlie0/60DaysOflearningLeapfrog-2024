@@ -34,3 +34,15 @@ function sum(...args) {
 let names = ["isha", "robert", "kandel", "pattinson"];
 let [winner, runnerup] = names;
 console.log(winner, runnerup); // "isha","robert"
+
+//for object
+const student = {
+  name: "isha",
+  age: 14,
+  class: 9,
+  subject: ["english", "math", "science", "nepali"],
+  username: "ishachttri@",
+  password: "abcd",
+};
+console.log(student.username);
+console.log(student.password);
