@@ -23,9 +23,14 @@ let data = {
 let dataCopy = { ...data, id: 123 };
 
 //rest:allows afunction to take an indefinite number of arguments and bundle them in an array
-function add(...args) {
+function sum(...args) {
   //arguments
   for (let i = 0; i < args.length; i++) {
-    console.log("you game us:", args[i]);
+    console.log("you gave us:", args[i]);
   }
 }
+
+//destructuring:storing values of array into multiple variable
+let names = ["isha", "robert", "kandel", "pattinson"];
+let [winner, runnerup] = names;
+console.log(winner, runnerup); // "isha","robert"
