@@ -27,3 +27,7 @@ body {
 #description {
     background-color: antiquewhite;
 }
+
+.images img {
+    height: 200px;
+}
