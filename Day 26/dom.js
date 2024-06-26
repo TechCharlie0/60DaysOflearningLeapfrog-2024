@@ -28,20 +28,3 @@ let links = document.querySelectorAll(".box a");
 for (let i = 0; i < links.length; i++) {
   links[i].style.color = "orange";
 }
-
-//using classList
-//obj.classList
-let cls = document.querySelector("h1");
-console.log(cls.classList);
-
-//to add new classes
-console.log(cls.classList.add("abc"));
-
-//to remove a new class
-console.log(cls.classList.remove("abc"));
-
-//to check if class exists
-console.log(cls.classList.contains("abc"));
-
-//to toggle between add and remove
-console.log(cls.classList.toggle("abc"));
