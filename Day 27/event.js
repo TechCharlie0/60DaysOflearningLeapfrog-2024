@@ -2,7 +2,15 @@
 //onclick(when an element is clicked)
 //onmouseenter(when mouse enters an element)
 
-let btn = document.querySelector("button");
+let btns = document.querySelector("button");
 btn.onclick = function () {
   console.log("you clicked");
 };
+
+//EventListener
+//element.addEventLisstener(event, click)
+
+let btn = document.querySelector("button");
+btn.addEventListener("click", function () {
+  console.log("button was clicled");
+});
