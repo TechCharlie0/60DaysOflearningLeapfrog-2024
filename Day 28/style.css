@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading p {
+    border: 2px solid black;
+    height: 70px;
+    width: 100px;
+
+}
