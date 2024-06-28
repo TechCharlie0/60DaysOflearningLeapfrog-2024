@@ -4,9 +4,22 @@ body {
     align-items: center;
 }
 
-.heading p {
-    border: 2px solid black;
-    height: 70px;
-    width: 100px;
+.heading {
+    text-align: center;
+}
 
+
+.btn p {
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
