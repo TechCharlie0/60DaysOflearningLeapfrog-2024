@@ -1,25 +1,21 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.heading {
     text-align: center;
 }
 
-
-p {
+div {
     border: 2px solid black;
     height: 100px;
     width: 400px;
     text-align: center;
+    margin: auto;
 
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+button {
+    margin-bottom: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(153, 148, 148);
 }
