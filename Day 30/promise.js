@@ -1,5 +1,5 @@
 //promises: the promise object reperesent the eventual completion of an asynchronous operation and its resulting value
-//resolve and reject
+//resolve and reject(sucess & failure)
 //asynchronous data
 
 function saveToDatabase(data) {
