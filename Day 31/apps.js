@@ -13,14 +13,13 @@ function changeColor(color, delay) {
   });
 }
 async function demo() {
-    try{  
-  await changeColor("red", 1000);
-  await changeColor("orange", 1000);
-  await changeColor("green", 1000);
-  await changeColor("blue", 1000);
-    }catch(err){
-        console.log("error caught";
-            console.log(err);
-        )
-    }
+  try {
+    await changeColor("red", 1000);
+    await changeColor("orange", 1000);
+    await changeColor("green", 1000);
+    await changeColor("blue", 1000);
+  } catch (err) {
+    console.log("error caught");
+    console.log(err);
+  }
 }
