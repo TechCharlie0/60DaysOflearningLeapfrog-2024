@@ -1,3 +1,4 @@
+//await keyword
 h1 = document.querySelector("h1");
 function changeColor(color, delay) {
   return new Promise((resolve, reject) => {
