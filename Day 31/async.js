@@ -17,9 +17,9 @@ greet()
         console.log("promise was resolved");
         console.log("result was:", result);
     })
-    .catch(err)=> {
+    .catch((err) => {
     console.log("promise was rejected with err:", err);
-}
+});
 
 //await keyword:pauses the execution of its surrounding async function until the promise is settles (resolved or rejected)
 function getNum() {
@@ -30,4 +30,13 @@ function getNum() {
         }, 1000);
     });
 }
+
+//now you can call the getNum() function
+getNum()
+  .then((num) => {
+    console.log("Random number:", num);
+  })
+  .catch((error) => {
+    console.error("Error occurred:", error);
+  });
 
