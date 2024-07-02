@@ -7,6 +7,9 @@ btn.addEventListener("click", async () => {
   p.innerText = facts;
 });
 
+//our first request using fetch
+//fetch(url)
+
 let url = "https://catfact.ninja/fact";
 
 async function getFacts() {
