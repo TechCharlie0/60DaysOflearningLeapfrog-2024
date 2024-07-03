@@ -1,4 +1,5 @@
 //axios:library to make http request
+let url = "https://catfact.ninja/fact";
 
 async function getFacts() {
   try {
