@@ -1,7 +1,11 @@
-document.getElementById("submit").addEventListener("click", function () {
-  document.getElementById("popupMenu").classList.add("popupActive");
+let sub = document.getElementById("submit");
+sub.addEventListener("click", function () {
+  let pop = document.getElementById("popupMenu");
+  pop.classList.add("popupActive");
 });
 
-document.getElementById("close").addEventListener("click", function () {
-  document.getElementById("popupMenu").classList.remove("popupActive");
+let clse = document.getElementById("close");
+clse.addEventListener("click", function () {
+  let pop = document.getElementById("popupMenu");
+  pop.classList.remove("popupActive");
 });
