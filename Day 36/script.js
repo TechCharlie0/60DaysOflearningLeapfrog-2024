@@ -1,10 +1,7 @@
-const submitBtn = document.getElementById("submit");
-const closeBtn = document.getElementById("close");
-const popup = document.querySelector(".popupContainer");
-
-submitBtn.addEventListener("click", function () {
-  popup.classList.add("popupActive");
+document.getElementById("submit").addEventListener("click", function () {
+  document.getElementById("popupMenu").classList.add("popupActive");
 });
-closeBtn.addEventListener("click", function () {
-  popup.classList.remove("popupActive");
+
+document.getElementById("close").addEventListener("click", function () {
+  document.getElementById("popupMenu").classList.remove("popupActive");
 });
