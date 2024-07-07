@@ -9,10 +9,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: #333;
-    border-radius: 25px;
+    background-color: #0c0763;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 
@@ -20,7 +19,12 @@ body {
 .footer-item h2 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #ff9800;
+    color: gray;
+}
+
+.footer-item h2:hover {
+    cursor: pointer;
+    color: #fff;
 }
 
 .footer-item p,
@@ -51,7 +55,7 @@ body {
 
 .footer-item.social ul li i {
     font-size: 20px;
-    color: #ff9800;
+    color: gray;
     transition: color 0.3s;
 }
 
