@@ -15,10 +15,7 @@ body {
     margin-top: 2rem;
 }
 
-.footer-item {
-    flex: 1 1 200px;
-    margin: 10px;
-}
+
 
 .footer-item h2 {
     font-size: 18px;
@@ -45,6 +42,11 @@ body {
 
 .footer-item.social ul li {
     margin: 0 10px;
+}
+
+.footer-item {
+    flex: 1 1 200px;
+    margin: 10px;
 }
 
 .footer-item.social ul li i {
