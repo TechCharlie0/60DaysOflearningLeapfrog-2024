@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#profile-cards {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(123, 27, 123);
+}
+
+.card-item {
+    width: 300px;
+    padding: 15px;
+    margin: 1.5rem;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    position: relative;
+    width: 100px;
+    bottom: 1.5rem;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    transition: all 0.2s linear;
+}
+
+.image:hover img {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.description ul {
+    display: flex;
+    list-style: none;
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+.role {
+    color: #e65b00;
+    font-size: 12px;
+}
+
+.description ul li {
+    font-size: 1.2rem;
+    padding: 10px 17px 5px 0;
+}
+
+.description ul li a {
+    text-decoration: none;
+    color: purple;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
