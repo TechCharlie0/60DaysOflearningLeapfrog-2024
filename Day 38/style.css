@@ -11,7 +11,7 @@
     margin: 1.5rem;
     display: flex;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(219, 215, 215);
     justify-content: space-between;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
@@ -46,6 +46,7 @@
 
 .description h2 {
     font-size: 24px;
+    color: rgb(110, 107, 107);
 }
 
 .role {
@@ -68,10 +69,13 @@
     height: 100%;
 }
 
+.swiper-wrapper {
+    padding-top: 50px;
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
