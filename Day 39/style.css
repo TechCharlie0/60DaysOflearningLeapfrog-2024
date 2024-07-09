@@ -6,13 +6,6 @@ body {
     color: #333;
 }
 
-h2.price-heading {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2em;
-    color: #333;
-}
-
 .pricing-container {
     display: flex;
     justify-content: center;
