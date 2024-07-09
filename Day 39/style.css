@@ -59,7 +59,7 @@ body {
 }
 
 .order-btn {
-    background: #007BFF;
+    background: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -137,14 +137,13 @@ footer {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #2196f3;
 }
 
 input:checked+.slider:before {
     transform: translateX(26px);
 }
 
-/* Dark Mode Styles */
 body.dark-mode {
     background: #121212;
     color: #f7f7f7;
