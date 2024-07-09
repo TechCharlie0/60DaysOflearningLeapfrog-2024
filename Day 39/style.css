@@ -31,7 +31,7 @@ body {
 .pricing-kit {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #007BFF;
+    color: #37383a;
 }
 
 .pricing {
@@ -161,4 +161,8 @@ body.dark-mode .order-btn {
 
 body.dark-mode footer {
     background: #1e1e1e;
+}
+
+body.dark-mode .pricing-kit {
+    color: #fff;
 }
