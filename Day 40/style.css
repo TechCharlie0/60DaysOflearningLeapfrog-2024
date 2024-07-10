@@ -52,9 +52,6 @@ body {
     color: #fff;
 }
 
-.nav.active .container {
-    padding: 10px 0;
-}
 
 .nav a.current,
 .nav a:hover {
@@ -63,10 +60,10 @@ body {
 }
 
 .hero {
-    background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('./img/robo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: bottom;
     height: 100vh;
     color: #fff;
     display: flex;
@@ -75,6 +72,7 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 20px;
+    object-fit: contain;
     z-index: -2;
 }
 
