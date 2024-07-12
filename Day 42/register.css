@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details .input-box {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus {
+    border-color: #333;
+}
+
+.details {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.gender-details {
+    margin-bottom: 20px;
+}
+
+.gender-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #ddd;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
+    background: #333;
+}
+
+.gender {
+    color: #333;
+    font-size: 16px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button input {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button input {
+    background: #9b59b6;
+
+}
+
+.button input:hover {
+    background: #555;
+}
