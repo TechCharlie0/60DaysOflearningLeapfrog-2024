@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    font-family: 'Arial', sans-serif;
+    font-family: "Arial", sans-serif;
     margin: 0;
 }
 
@@ -94,17 +94,6 @@ input[type="radio"] {
     display: none;
 }
 
-#dot-1:checked~.category label .one,
-#dot-2:checked~.category label .two,
-#dot-3:checked~.category label .three {
-    background: #333;
-}
-
-.gender {
-    color: #333;
-    font-size: 16px;
-}
-
 .button {
     text-align: center;
 }
@@ -122,7 +111,6 @@ input[type="radio"] {
 
 .button input {
     background: #9b59b6;
-
 }
 
 .button input:hover {
