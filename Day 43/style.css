@@ -12,8 +12,12 @@ body {
 
 h1 {
     font-size: 2.5em;
-    color: #333;
+    color: #007bff;
     margin-bottom: 20px;
+}
+
+h1:hover {
+    color: #0056b3;
 }
 
 .faq-container {
@@ -34,15 +38,28 @@ h1 {
     padding: 20px;
     transition: all 0.3s ease;
     position: relative;
+    overflow: hidden;
+}
+
+.faq:hover {
+    border-color: #007bff;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
 }
 
 .faq.active {
-    background: #f1f1f1;
+    background: #e9f5ff;
 }
 
 .faq-title {
     font-size: 1.5em;
     margin: 0;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.faq-title:hover {
+    color: #0056b3;
 }
 
 .faq-text {
@@ -50,6 +67,7 @@ h1 {
     margin-top: 20px;
     font-size: 1.1em;
     line-height: 1.6;
+    color: #555;
 }
 
 .faq-toggle {
@@ -60,7 +78,12 @@ h1 {
     right: 20px;
     cursor: pointer;
     font-size: 1.5em;
-    color: #666;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.faq-toggle:hover {
+    color: #0056b3;
 }
 
 .faq-toggle .fa-chevron-down {
