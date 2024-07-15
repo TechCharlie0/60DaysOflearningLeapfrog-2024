@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="navbar" id="navigation">
+        <ul class="center-nav">
+          <li><i class="fa-solid fa-house"></i><a href="#"> Dashboard </a></li>
+          <li><i class="fa-solid fa-copy"></i><a href="#"> Content </a></li>
+          <li>
+            <i class="fa-sharp fa-solid fa-chart-simple"></i
+            ><a href="#"> Analytics </a>
+          </li>
+          <li><i class="fa-solid fa-thumbs-up"></i><a href="#"> Likes </a></li>
+          <li><i class="fa-solid fa-comment"></i><a href="#"> Comments </a></li>
+          <li>
+            <i class="fa-sharp fa-solid fa-floppy-disk"></i
+            ><a href="#"> Saves </a>
+          </li>
+          <li><i class="fa-solid fa-share"></i><a href="#"> Share </a></li>
+          <li><i class="fa-solid fa-rectangle-ad"></i><a href="#"> Ads </a></li>
+        </ul>
+        <ul class="bottom-nav">
+          <hr />
+          <li><i class="fa-solid fa-gear"></i><a href="#"> Settings </a></li>
+          <li><i class="fa-solid fa-power-off"></i><a href="#"> Logout </a></li>
+        </ul>
+      </div>
+
+      <div class="main-content">
+        <div class="main-top">
+          <div class="bars" id="menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="input">
+            <input type="text" placeholder="Search here..." />
+          </div>
+          <div class="user"></div>
+        </div>
+
+        <div class="dashboard">
+          <h2 class="heading">Dashboard</h2>
+          <div class="color-box">
+            <div class="box skyblue">
+              <p><i class="fa-solid fa-thumbs-up"></i></p>
+              <p>Total Likes</p>
+              <h3>50,120</h3>
+            </div>
+            <div class="box yellow">
+              <p><i class="fa-solid fa-comment"></i></p>
+              <p>Total Comments</p>
+              <h3>25,120</h3>
+            </div>
+            <div class="box purple">
+              <p><i class="fa-solid fa-share"></i></p>
+              <p>Total Share</p>
+              <h3>10,320</h3>
+            </div>
+            <div class="box red">
+              <p><i class="fa-sharp fa-solid fa-floppy-disk"></i></p>
+              <p>Total Saves</p>
+              <h3>20,129</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="activity">
+          <h2 class="heading">Recent Activity</h2>
+          <div class="activities">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Joined</th>
+                  <th>Type</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Isha</td>
+                  <td>ishachttri@gmail.com</td>
+                  <td>01-12-2020</td>
+                  <td>Member</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Robert</td>
+                  <td>Robert@gmail.com</td>
+                  <td>03-01-2022</td>
+                  <td>New</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Isha</td>
+                  <td>ishachttri@gmail.com</td>
+                  <td>01-12-2020</td>
+                  <td>Member</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Robert</td>
+                  <td>Robert@gmail.com</td>
+                  <td>03-01-2022</td>
+                  <td>New</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Isha</td>
+                  <td>ishachttri@gmail.com</td>
+                  <td>01-12-2020</td>
+                  <td>Member</td>
+                  <td>Active</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script src="./script.js"></script>
+</html>
