@@ -25,7 +25,6 @@ main {
     max-width: 100%;
 }
 
-/* Signup and Login buttons */
 .signup,
 .login {
     display: flex;
@@ -59,7 +58,6 @@ main {
 
 }
 
-/* Form Styles */
 .back-layer {
     padding: 2rem;
 }
