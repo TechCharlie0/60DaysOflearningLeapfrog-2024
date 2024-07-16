@@ -10,8 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #e64c26, #f0edec);
-
-
     min-height: 100vh;
     color: #333;
 }
@@ -48,6 +46,7 @@ main {
     color: #fff;
     padding: 0.5rem 1rem;
     box-shadow: 0 10px 18px rgba(21, 23, 17, 0.4);
+
 
 }
 
@@ -88,7 +87,6 @@ form input {
 form button {
     background: linear-gradient(to right, #e64c26, #f0edec);
     box-shadow: 0 10px 18px rgba(21, 23, 17, 0.4);
-
     border: none;
     border-radius: 5px;
     color: #fff;
