@@ -44,3 +44,7 @@ body {
     background-position: center;
     clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);
 }
+
+.container:hover .clip {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
