@@ -1,11 +1,11 @@
 body {
+    margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f0f4f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 .container {
@@ -47,7 +47,6 @@ input:focus {
     color: #e74c3c;
     font-size: 0.875rem;
     display: none;
-    /* Initially hide error messages */
 }
 
 .submit {
