@@ -13,7 +13,19 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+#inputBox {
+    transition: all 0.2s ease, transform 0.4s ease;
+
+}
+
+#inputBox:focus {
+    transform: translateY(-4px);
     box-shadow: 5px 10px rgba(46, 45, 45, 0.7);
+
+
+
 }
 
 input[type="text"] {
@@ -27,6 +39,7 @@ input[type="text"] {
 input[type="text"]:focus {
     border-color: #ff7e5f;
     outline: none;
+
 }
 
 .mainForm.valid input[type="text"] {
