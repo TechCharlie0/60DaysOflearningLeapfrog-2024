@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 #inputBox {
@@ -23,9 +23,6 @@ body {
 #inputBox:focus {
     transform: translateY(-4px);
     box-shadow: 5px 10px rgba(46, 45, 45, 0.7);
-
-
-
 }
 
 input[type="text"] {
