@@ -14,6 +14,5 @@ function validate() {
   } else {
     form.classList.add("invalid");
     form.classList.remove("valid");
-    alert("Please fill in the correct form.");
   }
 }
