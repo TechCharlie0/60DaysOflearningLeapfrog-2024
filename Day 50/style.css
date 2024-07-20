@@ -82,6 +82,7 @@ body {
 .from,
 .to {
     margin-top: 10px;
+    color: white;
 }
 
 .number {
