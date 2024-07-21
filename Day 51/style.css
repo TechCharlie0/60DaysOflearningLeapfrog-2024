@@ -33,6 +33,11 @@ a {
     color: #202020;
 }
 
+#MenuItems a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(34, 34, 34);
+}
+
 p {
     color: #202020;
 }
