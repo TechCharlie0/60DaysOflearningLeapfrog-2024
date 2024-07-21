@@ -64,13 +64,21 @@ p {
 .col-2 img {
     max-width: 100%;
     padding: 50px 40px;
-    transition: transform 0.2s;
-
+    animation: moveImage 3s linear infinite;
 }
 
-.col-2 img:hover {
-    transform: translateY(-20px);
+@keyframes moveImage {
+    0% {
+        transform: translateY(0);
+    }
 
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .col-2 h1 {
