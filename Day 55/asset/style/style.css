@@ -696,3 +696,65 @@ a {
         border-radius: 10px;
         height: 600px;
     }
+
+    /* ani pu-div ko chai yeta lekheko xu birsera */
+
+    .pu-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
+    }
+
+    .pu-div .growing {
+        height: 60vh;
+        width: 74vw;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .growing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        transition: transform 0.7s ease-in-out;
+    }
+
+    .growing p a {
+        color: #0256ff;
+        font-weight: 400;
+        font-size: 18px;
+        list-style: 31px;
+    }
+
+    .growing h4 {
+        font-weight: 700;
+        font-size: 28px;
+        list-style: 42px;
+        text-align: center;
+    }
+
+    .growing h5 {
+        width: 250px;
+        text-align: center;
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    /* button div ko yeta lekheko birsera */
+
+    .button-div button {
+        padding: 10px 20px;
+        color: #f45c20;
+        border: none;
+        border-radius: 13px;
+        background-color: #f8e9e2;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+
+}
