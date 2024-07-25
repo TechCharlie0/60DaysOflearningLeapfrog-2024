@@ -756,5 +756,26 @@ a {
         font-size: 18px;
     }
 
+    .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
+    }
+
+    .first-div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .first-div img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
 }
