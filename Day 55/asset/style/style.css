@@ -1,0 +1,781 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans";
+    text-transform: capitalize;
+    color: #464545;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pu-assist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo-div img {
+    width: 170px;
+}
+
+.nav-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+}
+
+.nav-div ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #212934;
+}
+
+.nav-div ul li a:hover {
+    cursor: pointer;
+    color: blue;
+    border-bottom: 2px solid #212934;
+}
+
+.button-div button {
+    padding: 20px 30px;
+    color: #f45c20;
+    border: none;
+    border-radius: 13px;
+    background-color: #f8e9e2;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button-div button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #f45c20;
+}
+
+.result-pu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-images img {
+    width: 500px;
+}
+
+.student-div {
+    width: 550px;
+}
+
+.companion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.student-div .companion img {
+    width: 60px;
+}
+
+.all-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.companion p {
+    font-size: larger;
+}
+
+.all-one h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.all-one p {
+    text-align: left;
+    font-size: larger;
+    padding-top: 20px;
+    line-height: 1.9rem;
+    color: #212934;
+}
+
+.fortunate-pu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.fortunate-pu p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sevenlogo-pu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.sevenlogo-pu img {
+    width: 55px;
+}
+
+.pu-div {
+    background-image: url(../image/banner-1.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.pu-div {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 40px;
+}
+
+.pu-div .growing {
+    height: 60vh;
+    width: 34vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.growing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    transition: transform 0.7s ease-in-out;
+}
+
+.growing:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+}
+
+.growing p a {
+    color: #0256ff;
+    font-weight: 400;
+    font-size: 18px;
+    list-style: 31px;
+}
+
+.growing h4 {
+    font-weight: 700;
+    font-size: 32px;
+    list-style: 42px;
+}
+
+.growing h5 {
+    width: 350px;
+    line-height: 31px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.syllabus {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+
+.syllabus img {
+    transition: transform 0.7s ease-in-out;
+}
+
+.syllabus img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+}
+
+.pu-syllabus img {
+    width: 100px;
+}
+
+.pu-syllabus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pu-syllabus h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.pu-syllabus p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1rem;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.timer img {
+    width: 100px;
+}
+
+.timer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.timer p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1rem;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.question img {
+    width: 100px;
+}
+
+.question h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.question p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1rem;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.notice img {
+    width: 100px;
+}
+
+.notice h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.notice p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1rem;
+}
+
+.question-answer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.img-question img {
+    width: 500px;
+}
+
+.growing-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.growing-div p a {
+    color: #0256ff;
+    font-weight: 400;
+    font-size: 28px;
+    list-style: 31px;
+}
+
+.growing-div h4 {
+    font-weight: 700;
+    font-size: 32px;
+    list-style: 42px;
+}
+
+.growing-div h5 {
+    text-align: left;
+    width: 450px;
+    line-height: 31px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.recent-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.two-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+
+.two-div img {
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.7s ease;
+}
+
+.two-div img:hover {
+    transform: scale(1.1);
+}
+
+.improve-img p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.1rem;
+}
+
+.flutter p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.1rem;
+}
+
+.ss-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ss-img img {
+    border-radius: 10px;
+
+    height: 600px;
+    transition: transform 0.7s ease-in-out;
+}
+
+.ss-img img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 0 rgba(27, 25, 25, 0.3);
+}
+
+.foott {
+    padding: 50px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.first-div {
+    padding: 10px;
+}
+
+.first-div img {
+    padding-bottom: 10px;
+}
+
+.first-div p {
+    height: 90px;
+    width: 400px;
+
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.head-second-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.second-div:hover {
+    cursor: pointer;
+    color: #141414;
+}
+
+.about li {
+    padding: 5px;
+    line-height: 2;
+}
+
+.about a {
+    font-size: 18px;
+}
+
+.about li a:hover {
+    cursor: pointer;
+    color: #0256ff;
+    border-bottom: 2px solid #464545;
+}
+
+.quick li {
+    padding: 5px;
+    line-height: 2;
+}
+
+.quick a {
+    font-size: 18px;
+}
+
+.quick li a:hover {
+    cursor: pointer;
+    color: #0256ff;
+
+    border-bottom: 2px solid #464545;
+}
+
+.sd-web li {
+    padding: 5px;
+}
+
+.links-second-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.payment-forth-div h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.sd-web {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sd-web img {
+    height: 3rem;
+    margin: 0px 15px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .nav-div ul li {
+        display: none;
+    }
+
+    .result-pu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-images {
+        padding: 10px 0px;
+    }
+
+    .main-images img {
+        width: 200px;
+    }
+
+    .student-div {
+        width: 300px;
+    }
+
+    .companion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .student-div .companion img {
+        width: 50px;
+    }
+
+    .all-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .companion p {
+        font-size: larger;
+    }
+
+    .all-one h1 {
+        font-size: 35px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .all-one p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.5rem;
+        color: #212934;
+    }
+
+    .fortunate-pu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .fortunate-pu p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .sevenlogo-pu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sevenlogo-pu img {
+        width: 40px;
+    }
+
+    .syllabus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 60px 0px;
+    }
+
+    .question-answer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    .img-question img {
+        width: 200px;
+        padding: 20px 0px;
+    }
+
+    .growing-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .growing-div p a {
+        color: #0256ff;
+        font-weight: 400;
+        font-size: 20px;
+        list-style: 31px;
+        text-align: center;
+    }
+
+    .growing-div h4 {
+        font-weight: 600;
+        font-size: 25px;
+        list-style: 42px;
+        text-align: center;
+    }
+
+    .growing-div h5 {
+        text-align: center;
+        width: 350px;
+        line-height: 21px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .recent-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .two-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 0px;
+    }
+
+    .two-div img {
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        transition: transform 0.7s ease;
+    }
+
+    .two-div img:hover {
+        transform: scale(1.1);
+    }
+
+    .improve-img p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .flutter p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 31px;
+        text-align: center;
+    }
+
+    .ss-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ss-img img {
+        border-radius: 10px;
+        height: 600px;
+    }
+
+    /* ani pu-div ko chai yeta lekheko xu birsera */
+
+    .pu-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 40px;
+    }
+
+    .pu-div .growing {
+        height: 60vh;
+        width: 74vw;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .growing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 40px;
+        transition: transform 0.7s ease-in-out;
+    }
+
+    .growing p a {
+        color: #0256ff;
+        font-weight: 400;
+        font-size: 18px;
+        list-style: 31px;
+    }
+
+    .growing h4 {
+        font-weight: 700;
+        font-size: 28px;
+        list-style: 42px;
+        text-align: center;
+    }
+
+    .growing h5 {
+        width: 250px;
+        text-align: center;
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    /* button div ko yeta lekheko birsera */
+
+    .button-div button {
+        padding: 10px 20px;
+        color: #f45c20;
+        border: none;
+        border-radius: 13px;
+        background-color: #f8e9e2;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .first-div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .first-div img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+}
