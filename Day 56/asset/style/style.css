@@ -746,39 +746,3 @@ a {
         font-weight: 400;
         font-size: 18px;
     }
-
-    /* button div ko yeta lekheko birsera */
-
-    .button-div button {
-        padding: 10px 20px;
-        color: #f45c20;
-        border: none;
-        border-radius: 13px;
-        background-color: #f8e9e2;
-        font-weight: 500;
-        font-size: 18px;
-    }
-
-    .foot {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-    }
-
-    .first-div p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .first-div img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 20px;
-    }
-}
