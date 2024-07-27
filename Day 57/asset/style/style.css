@@ -450,3 +450,229 @@ footer .four-foot:hover {
   color: #464545;
   padding-top: 29px;
 }
+
+@media only screen and (max-width: 900px) {
+  .nav-img {
+    padding: 0px 60px 0px 0px;
+    height: 40px;
+  }
+
+  .nav-first {
+    display: none;
+  }
+
+  .material-symbols-outlined {
+    display: block;
+  }
+
+  .drop-down {
+    display: block;
+  }
+
+  .btn {
+    align-items: center;
+    padding: 0px 40px 0px 0px;
+  }
+
+  .img-main img {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .right-img img {
+    display: none;
+  }
+
+  .img-main h6 {
+    font-size: 21px;
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #ff695f;
+    top: 80px;
+    width: 400px;
+    padding-left: 30px;
+  }
+
+  .img-main p {
+    color: #2a2a2a;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 155px 0px 0px 24px;
+    width: 349px;
+    top: 40px;
+    font-weight: 900;
+    font-size: 45px;
+  }
+
+  .track {
+    padding: 40px 0px 50px 12px;
+  }
+
+  .second-image img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .service {
+    display: flex;
+    justify-content: center;
+  }
+
+  .service h1 {
+    width: 400px;
+    font-weight: 800;
+    padding: 0px 3px 0px 19px;
+  }
+
+  .main-flex {
+    padding: 50px 0px 0px 0px;
+    font-size: large;
+  }
+
+  .first-row h4 {
+    width: 30px;
+  }
+
+  .second-row h4 {
+    width: 30px;
+  }
+
+  .third-row h4 {
+    width: 30px;
+  }
+
+  .third-row h4 {
+    padding-bottom: 50px;
+  }
+
+  .double-flex {
+    display: inline;
+    justify-content: center;
+  }
+
+  .single-flex img {
+    height: 300px;
+  }
+
+  .three-row {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .one {
+    padding: 0px 0px 0px 140px;
+  }
+
+  .one img {
+    height: 70px;
+  }
+
+  .one span {
+    font-size: 25px;
+    font-size: larger;
+  }
+
+  .two span {
+    font-size: 25px;
+    font-size: larger;
+  }
+
+  .three span {
+    font-size: 25px;
+    font-size: larger;
+  }
+
+  .one p {
+    padding: 10px 0px 10px 0px;
+    font-size: 45px;
+  }
+
+  .two {
+    padding: 50px 0px 0px 140px;
+  }
+
+  .three {
+    padding: 50px 0px 0px 140px;
+  }
+
+  .two img {
+    height: 70px;
+  }
+
+  .three img {
+    height: 70px;
+  }
+
+  .gbl {
+    padding: 10px 0px 20px 30px;
+  }
+
+  .gbl em {
+    color: #03a4ed;
+    font-style: normal;
+  }
+
+  .diving {
+    width: 300px;
+    padding: 30px 0px 0px 50px;
+  }
+
+  .diving h1 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .map {
+    padding: 0px 0px 60px 0px;
+    align-items: center;
+  }
+
+  .enqury h1 {
+    text-align: center;
+  }
+
+  .double-map {
+    display: inline;
+    justify-content: center;
+  }
+
+  .form img {
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  .first-foot {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .one-foot {
+    padding: 20px;
+  }
+
+  .two-foot {
+    padding: 20px;
+  }
+
+  .support p {
+    width: 152px;
+  }
+
+  .face p {
+    width: 152px;
+  }
+
+  .three-foot {
+    padding: 20px;
+  }
+
+  .kathmandu p {
+    width: 152px;
+  }
+
+  .four-foot {
+    padding: 20px;
+  }
+}
