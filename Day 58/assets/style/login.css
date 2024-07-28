@@ -67,6 +67,7 @@ li {
   border: 1.8px solid white;
   background-color: #15803d;
 }
+
 .another-div {
   width: 36px;
   height: 36px;
@@ -101,6 +102,7 @@ li {
   font-size: large;
   font-weight: 500;
 }
+
 .sign-div {
   padding: 40px 0px 40px 0px;
 }
@@ -149,6 +151,7 @@ li {
   text-align: center;
   padding-top: 30px;
 }
+
 .form-div {
   display: flex;
   flex-direction: column;
@@ -156,19 +159,23 @@ li {
   align-items: center;
   gap: 15px;
 }
+
 .parag {
   width: 435px;
   font-size: small;
   padding-bottom: 15px;
 }
+
 span {
   display: flex;
   gap: 2px;
 }
+
 .already {
   display: flex;
   padding-bottom: 30px;
 }
+
 .foott {
   background-color: #073763;
   padding: 50px;
