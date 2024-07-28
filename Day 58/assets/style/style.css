@@ -68,7 +68,6 @@ li {
 
 .right-2 {
   border: 1.8px solid white;
-  background-color: #15803d;
 }
 
 .image {
@@ -80,7 +79,7 @@ li {
 
 button:hover {
   cursor: pointer;
-  background-color: #fff;
+  background-color: #c7b4b4;
   color: blue;
 }
 
