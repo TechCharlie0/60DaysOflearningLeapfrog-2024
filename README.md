@@ -175,7 +175,7 @@
         <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2056/index.html">Live Demo</a></td>
       </tr><tr>
         <td>Gaubesi logistics</td>
-        <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2056/index.html">Live Demo</a></td>
+        <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2057/index.html">Live Demo</a></td>
       </tr><tr>
         <td>DynoAcademy Website</td>
         <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2060/index.html">Live Demo</a></td>
