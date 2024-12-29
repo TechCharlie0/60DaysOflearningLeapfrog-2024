@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Showcase</title>
-  <style>
-  
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-      font-size: 18px;
-      text-align: left;
-
-    }
-    th, td {
-      padding: 12px;
-      border: 1px solid #ddd;
-    }
-    th {
-      background-color:rgb(10, 1, 1);
-    }
-    tr:nth-child(even) {
-      background-color:rgb(105, 103, 103);
-
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
 
 
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    td:first-child {
-      text-transform: capitalize; /* Capitalize project names */
-    }
-
-  </style>
 </head>
 <body>
   <h1>My Projects</h1>
