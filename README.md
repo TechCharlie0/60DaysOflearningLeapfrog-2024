@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Showcase</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-      font-size: 18px;
-      text-align: left;
-    }
-    th, td {
-      padding: 12px;
-      border: 1px solid #ddd;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    tr:nth-child(even) {
-      background-color: #f9f9f9;
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+
 </head>
 <body>
   <h1>My Projects</h1>
@@ -200,7 +169,7 @@
       <tr>
         <td>32</td>
         <td>Gaubesi logistics</td>
-        <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2056/index.html">Live Demo</a></td>
+        <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2057/index.html">Live Demo</a></td>
       </tr>
       <tr>
         <td>33</td>
