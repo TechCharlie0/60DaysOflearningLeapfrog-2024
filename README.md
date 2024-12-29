@@ -98,7 +98,7 @@
       </tr>
       <tr>
         <td>18</td>
-        <td>Pricing menu</td>
+        <td>Pricing menu with mode features</td>
         <td><a href="https://techcharlie0.github.io/60DaysOflearningLeapfrog-2024/Day%2039/index.html">Live Demo</a></td>
       </tr>
       <tr>
