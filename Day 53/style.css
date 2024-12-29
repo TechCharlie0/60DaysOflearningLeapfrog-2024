@@ -5,12 +5,17 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+
+    font-family: 'Poppins', sans-serif;
 }
+
+
+
 
 .navbar {
     display: flex;
     align-items: center;
+    padding: 30px 0px 0px 0px;
 }
 
 nav {
